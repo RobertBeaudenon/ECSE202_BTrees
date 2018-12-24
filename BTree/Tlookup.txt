@@ -1,0 +1,33 @@
+ID:260725065
+Name:Robert Beaudenon
+Project: Tlookup.c
+
+Roberts-MacBook-Pro:src robert$ gcc Tlookup.c -o Tlookup
+Roberts-MacBook-Pro:src robert$ ./Tlookup NamesIDs.txt marks.txt tait
+The following record was found:
+Name: Suzi Tait 
+Student ID: 2519 
+Student Grade: 82 
+Roberts-MacBook-Pro:src robert$ ./Tlookup NamesIDs.txt marks.txt MUSHRUSH
+The following record was found:
+Name: Felicita Mushrush 
+Student ID: 2825 
+Student Grade: 76 
+Roberts-MacBook-Pro:src robert$ ./Tlookup NamesIDs.txt marks.txt DAGGett
+The following record was found:
+Name: Yuonne Daggett 
+Student ID: 2029 
+Student Grade: 74 
+Roberts-MacBook-Pro:src robert$ ./Tlookup NamesIDs.txt marks.txt spece
+The following record was found:
+Name: Matilde Spece 
+Student ID: 2917 
+Student Grade: 68 
+Roberts-MacBook-Pro:src robert$ ./Tlookup NamesIDs.txt marks.txt aYlor
+The following record was found:
+Name: Francene Aylor 
+Student ID: 2728 
+Student Grade: 72 
+Roberts-MacBook-Pro:src robert$ ./Tlookup NamesIDs.txt marks.txt foo
+No record found for student with last name foo.
+
